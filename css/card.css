@@ -1,0 +1,29 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: rgb(230,230,230);
+}
+
+
+
+.card{
+    border-width: 6px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: solid;
+    border-color:#48abec ;
+}
+
+.img-card{
+    height: 200px;
+    width: 200px;
+}
+
+.info {
+    
+    color: grey;
+    
+}
+    

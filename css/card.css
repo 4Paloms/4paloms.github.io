@@ -9,7 +9,7 @@
     
     display: flex;
     flex: 1 1 auto;
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
 }
 .card{
     border-width: 6px;
@@ -24,14 +24,14 @@
 
 .img-card-left{
     
-    height: auto;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 .img-card-right{
     
-    max-height: auto;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 

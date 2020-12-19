@@ -17,9 +17,9 @@
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #bdbdbd;
+    background-color: rgb(230,230,230);;
     border-radius: 9px;
-    box-shadow: 0px 0px 2px 8px #f7f7f7;
+    box-shadow: 0px 0px 2px 8px #f5f5f5;
  }
 }
 /* Some Cool Stuff */
@@ -49,9 +49,8 @@ body {
 }Fonts */
 #timeline {
   padding: 100px 0;
-  background: #f7f7f7;
-  border-top: 1px solid rgba(191, 191, 191, 0.4);
-  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+  background: rgb(230,230,230);;
+  
 }
 #timeline h1 {
   text-align: center;
@@ -95,6 +94,7 @@ body {
 #timeline .demo-card {
   position: relative;
   display: block;
+  height: 200;
   margin: 10px auto 80px;
   max-width: 94%;
   z-index: 2;
@@ -113,10 +113,10 @@ body {
 @media (min-width: 1000px) {
   #timeline .demo-card {
     max-width: 450px;
-    height: 400px;
+    height: 350px;
     margin: 90px;
     margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 80px;
  }
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
@@ -173,7 +173,9 @@ body {
   
 }
 img.mediana{
-  width: 200px; height: 220px;
+  width: 200px; 
+  height: 200px;
+  
 }
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
@@ -196,20 +198,28 @@ img.mediana{
   border: 1px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
   padding: 15px;
+
 }
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
     height: 315px;
+    
  }
 }
 #timeline .demo-card .body p {
   font-size: 18px;
   line-height: 18px;
   margin-bottom: 15px;
+  text-align: justify;
 }
-#timeline .demo-card .body img {
-  display: block;
-  width: 100%;
+#timeline .demo-card .body .mediana {
+  display: auto;
+  width: 200px;
+  height: 200px;
+  margin-left: 105px;
+  align-content: center;
+  
+  
 }
 #timeline .demo-card--step1 {
   background-color: #007bff;

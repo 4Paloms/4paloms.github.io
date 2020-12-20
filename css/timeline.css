@@ -198,6 +198,7 @@ img.mediana{
   border: 1px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
   padding: 15px;
+  
 
 }
 @media (min-width: 1000px) {
@@ -217,10 +218,11 @@ img.mediana{
   width: 200px;
   height: 200px;
   margin-left: 6.5rem;
-  align-content: center;
-  
-  
+  margin-right: 6.5rem;
+  text-align: center;
 }
+
+
 #timeline .demo-card--step1 {
   background-color: #007bff;
 }

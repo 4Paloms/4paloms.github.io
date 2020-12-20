@@ -180,7 +180,7 @@ img.mediana{
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
     font-size: 165%;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
  }
 }
 #timeline .demo-card .head h2 span {

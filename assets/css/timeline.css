@@ -48,7 +48,7 @@ body {
   font-family: Roboto;
 }Fonts */
 #timeline {
-  padding: 100px 0;
+  padding: 10px 0;
   background: rgb(230,230,230);;
   
 }
@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 1170px;
-    height: 1650px;
+    height: 1550px;
     margin: 0 auto;
  }
 }

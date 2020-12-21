@@ -723,6 +723,14 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-me {
+  padding-left: 2rem;
+}
+
+.about-me .lead{
+  text-align: justify;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1197,7 +1205,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  
 }
 
 /*--------------------------------------------------------------

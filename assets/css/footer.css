@@ -1,9 +1,27 @@
 .elementos{
-    text-align: center;
+    
     margin-bottom: 50px ;
+    display: flex;
     
 }
+.pack{
+    text-align: center;
+}
 
+@media (max-width:500px) {
+    .elementos{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px ;
+
+
+    }
+    .pack {
+        text-align: center;
+        margin-left: 7.5rem;
+        margin-right: 5rem;
+    }
+}
 .FooterIcon{
     width: 80px;
     height: 80px;

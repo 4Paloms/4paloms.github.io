@@ -150,6 +150,13 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
+@media (max-width:400px) {
+  .title-a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
 
 .subtitle-a {
   color: #4e4e4e;

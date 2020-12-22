@@ -137,6 +137,7 @@ a:hover {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 /*--/ Title A /--*/
@@ -811,6 +812,13 @@ a:hover {
 .counter-box {
   color: #fff;
   text-align: center;
+  z-index: 1;
+}
+
+.counter-text{
+  color: #fff;
+  font-size: 1.1rem;
+  padding-left: 5rem;
 }
 
 @media (min-width: 577px) {

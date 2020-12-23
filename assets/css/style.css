@@ -735,6 +735,13 @@ a:hover {
   padding-left: 2rem;
 }
 
+@media (max-width:500px){
+  .about-me {
+    padding-left: 0.5rem;
+  }
+
+}
+
 .about-me .lead{
   text-align: justify;
 }

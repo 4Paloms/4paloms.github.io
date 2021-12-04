@@ -1,6 +1,0 @@
-Sitemap: https://antoniorubiomenchero.github.io/sitemap.xml
-
-User-agent: *
-Disallow: /assets/
-Disallow: /img/
-Disallow: /README.md

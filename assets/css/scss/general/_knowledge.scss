@@ -1,0 +1,143 @@
+.knowledge-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+
+    .knowledge-row{
+        padding: 1em;
+        background-color: rgba(250, 250, 250, 0.1);
+
+        h5{
+            margin-bottom: 2em;
+        }
+       
+        .item-list{
+            display: grid; 
+            grid-template-columns: 1fr 1fr ;
+            row-gap: 2.5em;
+            column-gap: 2.5em;
+            @media  (min-width:550px)  {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            @media (min-width:920px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                
+            }
+            .item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .icon-knowledge{
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                   
+                    //CMS
+                    &#drupal{
+                        @include img-knowledge("/assets/icons/Logo-Drupal9.png")
+                    }
+                    &#prestashop{
+                        @include img-knowledge("/assets/icons/logo-prestashop.svg")
+                    }
+
+                   
+                    
+                    // Lenguajes
+                    &#java{
+                        @include img-knowledge("/assets/icons/logo-java.svg")
+                    }
+                    &#js{
+                        @include img-knowledge("/assets/icons/logo-js.svg")
+                    }
+                    &#python{
+                        @include img-knowledge("/assets/icons/logo-python.png")
+                    }
+                    &#typescript{
+                        @include img-knowledge("/assets/icons/logo-typescript.svg")
+                    }
+                    &#php{
+                        @include img-knowledge("/assets/icons/logo-php.svg")
+                    }
+
+                    // OTROS
+
+                    &#arduino{
+                        @include img-knowledge("/assets/icons/logo-arduino.png")
+                    }
+                    &#sigfox{
+                        @include img-knowledge("/assets/icons/logo-sigfox.png")
+                    }
+
+                    &#latex{
+                        @include img-knowledge("/assets/icons/logo-latex.svg")
+                    }
+                    &#git{
+                        @include img-knowledge("/assets/icons/logo-git.svg")
+                    }
+                    &#linux{
+                        @include img-knowledge("/assets/icons/logo-linux.svg")
+                    }
+
+                    // BBDD
+                    &#MySQL{
+                        @include img-knowledge("/assets/icons/logo-mysql.svg")
+                    }
+                    &#MongoDB{
+                        @include img-knowledge("/assets/icons/logo-mongodb.svg")
+                    }
+                    
+                    // FRONT
+                    &#sass{
+                        @include img-knowledge("/assets/icons/logo-sass.svg")
+                    }
+                    &#html{
+                        @include img-knowledge("/assets/icons/logo-html.svg")
+                    }
+                     
+                    &#angular{
+                        @include img-knowledge("/assets/icons/logo-angularjs.svg")
+                    }
+                    &#ko{
+                        @include img-knowledge("/assets/icons/logo-ko.svg")
+                    }
+                    &#capacitor{
+                        @include img-knowledge("/assets/icons/logo-capacitor.svg")
+
+                    }
+                    &#ionic{
+                        @include img-knowledge("/assets/icons/logo-ionic.svg")
+
+                    }
+
+                    // BACKEND
+                    &#nodeJS{
+                        @include img-knowledge("/assets/icons/logo-nodejs.svg")
+                    }
+                    &#express{
+                        @include img-knowledge("/assets/icons/logo-express.svg")
+                    }
+                    &#spring{
+                        @include img-knowledge("/assets/icons/logo-spring.svg")
+                    }
+                    &#maven{
+                        @include img-knowledge("/assets/icons/logo-maven.svg")
+                    }
+
+                }
+                .level-knowledge{
+                    margin-top: 1em;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+
+
+}

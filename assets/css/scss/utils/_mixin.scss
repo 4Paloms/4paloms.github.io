@@ -1,0 +1,10 @@
+@mixin img-knowledge($url) {
+
+    background-image: url($url);
+    background-position: initial;
+    background-repeat: no-repeat ;
+    background-size: contain;
+    width: 2.5em;
+    height: 2.5em;
+    
+}

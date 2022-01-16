@@ -1,0 +1,38 @@
+.container-complementaria{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.5em;
+    column-gap: 2.5em;
+    @media  (min-width:768px){
+        grid-template-columns: 1fr 1fr ;
+    }
+    @media  (min-width:1024px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .comp-item{
+      
+        
+        box-shadow: $shadow;
+        img{
+            width: 100%;
+            height: auto;
+            max-height: 13em;
+        }
+        .comp-info{
+            padding: 1em;
+           
+        }
+        .comp-date{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            a{
+                color: $primary;
+
+                &:hover{
+                    color: $accent;
+                }
+            }
+        }
+    }
+}

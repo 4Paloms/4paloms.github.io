@@ -1,0 +1,739 @@
+.section {
+  min-height: auto;
+}
+
+.about-me .left-image, .about-me .right-image {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about-me .left-image img, .about-me .right-image img {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 400px;
+}
+
+.about-me .left-image-post-2 {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  border-top: 2px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 2px solid rgba(250, 250, 250, 0.1);
+}
+
+.about-me .curriculum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about-me .curriculum div {
+  text-align: center;
+}
+
+.about-me .curriculum div:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.about-me .curriculum img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 4em;
+  width: 4em;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.about-me .curriculum span {
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.container-complementaria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 2.5em;
+  -webkit-column-gap: 2.5em;
+          column-gap: 2.5em;
+}
+
+@media (min-width: 768px) {
+  .container-complementaria {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-complementaria {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.container-complementaria .comp-item {
+  -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.container-complementaria .comp-item img {
+  width: 100%;
+  height: auto;
+  max-height: 13em;
+}
+
+.container-complementaria .comp-item .comp-info {
+  padding: 1em;
+}
+
+.container-complementaria .comp-item .comp-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container-complementaria .comp-item .comp-date a {
+  color: #a43f49;
+}
+
+.container-complementaria .comp-item .comp-date a:hover {
+  color: #FF4081;
+}
+
+.my-work .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 1em;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+}
+
+@media (min-width: 768px) {
+  .my-work .row {
+    -ms-grid-columns: 1fr  1fr;
+        grid-template-columns: 1fr  1fr;
+  }
+}
+
+.my-work .row .service-row {
+  background-color: rgba(250, 250, 250, 0.1);
+}
+
+.my-work .row .service-row:hover {
+  background-color: #fafafa;
+}
+
+.my-work .row .service-row .service-item {
+  background-color: transparent;
+  padding: 2em;
+}
+
+.my-work .row .service-row .service-item .service-icon {
+  width: 3em;
+  height: 3em;
+}
+
+.my-work .row .service-row .service-item .icon-github {
+  background-image: url("/assets/images/icono-github.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.my-work .row .service-row .service-item .icon-github:hover {
+  -webkit-filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+          filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+}
+
+.my-work .row .service-row .service-item .icon-file {
+  background-image: url("/assets/icons/icono-descargar-documento.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.my-work .row .service-row .service-item .icon-file:hover {
+  -webkit-filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+          filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+}
+
+.my-work .row .service-row .service-item .icon-web {
+  background-image: url("/assets/icons/icono-globo.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.my-work .row .service-row .service-item .icon-web:hover {
+  -webkit-filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+          filter: invert(27%) sepia(15%) saturate(4353%) hue-rotate(315deg) brightness(102%) contrast(83%);
+}
+
+.my-work .row .service-row .project-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.timeline-container section {
+  padding: 0;
+}
+
+.timeline-container html, .timeline-container body {
+  overflow-x: hidden;
+}
+
+.timeline-container body {
+  font-family: 'Lato',sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #eee;
+}
+
+.timeline-container h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.timeline-container header {
+  background: #a43f49;
+  color: #FFFFFF;
+  padding: 150px 0;
+}
+
+.timeline-container header p {
+  font-family: 'Allura';
+  color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 0;
+  font-size: 60px;
+  margin-top: -30px;
+}
+
+.timeline-container .timeline {
+  position: relative;
+}
+
+.timeline-container .timeline::before {
+  content: '';
+  background: #C5CAE9;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timeline-container .timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.timeline-container .timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 0 0 1em 0;
+}
+
+.timeline-container .timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+
+.timeline-container .timeline-item:nth-child(even) .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  left: -15px;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.timeline-container .timeline-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.timeline-container .timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: transparent;
+  -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-container .timeline-content h2 {
+  padding-left: .6em;
+}
+
+.timeline-container .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  right: -15px;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #f5f5f5;
+}
+
+.timeline-container .timeline-img {
+  width: 30px;
+  height: 30px;
+  background: #a43f49;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+.timeline-container a {
+  color: #a43f49;
+}
+
+.timeline-container a:hover, .timeline-container a:active, .timeline-container a:focus {
+  color: #FF4081;
+  text-decoration: none;
+}
+
+.timeline-container .timeline-card {
+  padding: 0 0 1em 0;
+}
+
+.timeline-container .timeline-card p {
+  padding: 0 20px;
+}
+
+.timeline-container .timeline-item .timeline-img-header#berenguela {
+  background: url("/assets/images/Logo-Berenguela.png") center center no-repeat;
+  background-size: contain;
+}
+
+.timeline-container .timeline-item .timeline-img-header#calvin {
+  background: url("/assets/images/Logo-Calvin.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.timeline-container .timeline-item .timeline-img-header#esi {
+  background: url("/assets/images/Logo-ESICR.png") center center no-repeat;
+  background-size: contain;
+}
+
+.timeline-container .timeline-item .timeline-img-header#pulsia {
+  background: url("/assets/images/logo_pulsia.svg") center center no-repeat;
+  background-size: contain;
+}
+
+.timeline-container .timeline-img-header {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-container .timeline-img-header h2 {
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.timeline-container blockquote {
+  margin-top: 30px;
+  color: #757575;
+  border-left-color: #a43f49;
+  padding: 0 20px;
+}
+
+.timeline-container .date {
+  background: #a43f49;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-container .timeline::before {
+    left: 50px;
+  }
+  .timeline-container .timeline .timeline-img {
+    left: 50px;
+  }
+  .timeline-container .timeline .timeline-content {
+    max-width: 100%;
+    width: auto;
+    margin-left: 70px;
+  }
+  .timeline-container .timeline .timeline-item:nth-child(even) .timeline-content {
+    float: none;
+  }
+  .timeline-container .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+  }
+}
+
+.section-heading {
+  padding: 4em 3em;
+  text-align: center;
+}
+
+.knowledge-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 1em;
+}
+
+.knowledge-container .knowledge-row {
+  padding: 1em;
+  background-color: rgba(250, 250, 250, 0.1);
+}
+
+.knowledge-container .knowledge-row h5 {
+  margin-bottom: 2em;
+}
+
+.knowledge-container .knowledge-row .item-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 2.5em;
+  -webkit-column-gap: 2.5em;
+          column-gap: 2.5em;
+}
+
+@media (min-width: 550px) {
+  .knowledge-container .knowledge-row .item-list {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 920px) {
+  .knowledge-container .knowledge-row .item-list {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.knowledge-container .knowledge-row .item-list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#drupal {
+  background-image: url("/assets/icons/Logo-Drupal9.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#prestashop {
+  background-image: url("/assets/icons/logo-prestashop.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#java {
+  background-image: url("/assets/icons/logo-java.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#js {
+  background-image: url("/assets/icons/logo-js.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#python {
+  background-image: url("/assets/icons/logo-python.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#typescript {
+  background-image: url("/assets/icons/logo-typescript.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#php {
+  background-image: url("/assets/icons/logo-php.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#arduino {
+  background-image: url("/assets/icons/logo-arduino.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#sigfox {
+  background-image: url("/assets/icons/logo-sigfox.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#latex {
+  background-image: url("/assets/icons/logo-latex.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#git {
+  background-image: url("/assets/icons/logo-git.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#linux {
+  background-image: url("/assets/icons/logo-linux.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#MySQL {
+  background-image: url("/assets/icons/logo-mysql.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#MongoDB {
+  background-image: url("/assets/icons/logo-mongodb.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#sass {
+  background-image: url("/assets/icons/logo-sass.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#html {
+  background-image: url("/assets/icons/logo-html.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#angular {
+  background-image: url("/assets/icons/logo-angularjs.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#ko {
+  background-image: url("/assets/icons/logo-ko.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#capacitor {
+  background-image: url("/assets/icons/logo-capacitor.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#ionic {
+  background-image: url("/assets/icons/logo-ionic.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#nodeJS {
+  background-image: url("/assets/icons/logo-nodejs.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#express {
+  background-image: url("/assets/icons/logo-express.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#spring {
+  background-image: url("/assets/icons/logo-spring.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .icon-knowledge#maven {
+  background-image: url("/assets/icons/logo-maven.svg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.knowledge-container .knowledge-row .item-list .item .level-knowledge {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

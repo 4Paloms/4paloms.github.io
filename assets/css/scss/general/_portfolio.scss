@@ -1,0 +1,72 @@
+.my-work{
+    .row{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        row-gap: 1em;
+        column-gap: 1em;
+        @media (min-width:768px) {
+           grid-template-columns:  1fr  1fr;
+        }
+        .service-row{
+            background-color: rgba(250, 250, 250, 0.1);
+
+            &:hover{
+                background-color: rgba(250, 250, 250, 1);
+                
+                
+            }
+            .service-item{
+                background-color: transparent;
+                padding: 2em;
+                .service-icon{
+                    width: 3em;
+                    height: 3em;
+                }
+                .icon-github{
+                    background-image: url('/assets/images/icono-github.svg');
+                    background-position: initial;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 2.5em;
+                    width: 2.5em;
+                    
+
+                    &:hover{
+                        filter:$filter_red;
+                    }
+                }
+                .icon-file{
+                    background-image: url('/assets/icons/icono-descargar-documento.svg');
+                    background-position: initial;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 2.5em;
+                    width: 2.5em;
+                    
+
+                    &:hover{
+                        filter:$filter_red;
+                    }
+                }
+                .icon-web{
+                    background-image: url('/assets/icons/icono-globo.svg');
+                    background-position: initial;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 2.5em;
+                    width: 2.5em;
+                    
+
+                    &:hover{
+                        filter:$filter_red;
+                    }
+                }
+            }
+            .project-info{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+        }
+    }
+}

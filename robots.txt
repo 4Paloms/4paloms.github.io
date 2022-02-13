@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Disallow: /assets/
+
+Sitemap: https://antoniorubiomenchero.github.io/sitemap.xml
+
